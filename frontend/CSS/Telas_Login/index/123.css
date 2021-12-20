@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
+
+@media screen and (min-width: 1px) {
+    .MarginTopIndexLogo{
+    margin-top: 2vh;
+    }
+    .WidthLogo{
+        width: 6vh;
+    }
+    .WidthCol-5, .WidthCol-6{
+        width: 100%;
+    }
+    .WidthMayday{
+        width:  100%;
+    }
+    .displayLogoResponsive1{
+        display: none;
+    } 
+    .displayLogoResponsive2{
+        display: inline;
+    }
+    .DisplayFunction{
+        display: block;
+    }
+    .row-padding{
+        padding-left: calc(var(--bs-gutter-x) * 0);
+        padding-right: calc(var(--bs-gutter-x) * 0);
+    }
+    .display-inline-body{
+        display: inline-block;
+    }
+    .width-a{
+        width: 100%;
+    }
+
+.ForgotPassword{
+    color: black;
+}
+   
+    
+}
+@media screen and (min-width: 440px) {
+    .display-inline-body{
+        display: block;
+    }
+
+    .ForgotPassword{
+        color: white;
+    }
+
+
+
+   
+}
+@media screen and (min-width: 900px) {
+    .width-a{
+        width: 48%;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .MarginTopIndexLogo{
+    margin-top: 2vh;
+    }
+    .row-padding{
+        padding-left: calc(var(--bs-gutter-x) * 0.5);
+        padding-right: calc(var(--bs-gutter-x) * 0.5);
+    }
+    
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: relative;
+        top: -50%;
+    }
+    .WidthLogo{
+        width: 9vh;
+    }
+    .WidthCol-5{
+        width: 50%;
+    }
+    .WidthCol-6{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+
+
+    }
+    p{
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+    }
+    .WidthMayday{
+        width:  100%;
+        display: inline-grid;
+        justify-items: start;
+    }
+    .displayLogoResponsive{
+        display: grid;
+    } 
+    .displayLogoResponsive1{
+        display: inline;
+    }
+    .displayLogoResponsive2{
+        display: none;
+    }
+   
+    
+}
+@media screen and (min-width: 1350px) {
+    .width-a{
+        width: 30%;
+    }
+
+.ForgotPassword{
+    color: black;
+}
+
+
+}
+.BackgroundTheme{
+    background-color:#995860;
+}
+.BackgroundThemebtn{
+    background-color: #CF6E7D;
+}
+
+.BackgroundThemeE1B1B8{
+    background-color: #E1B1B8;
+}
+
+.ButtonRadius{
+    border-radius: 10vh;
+}
+.font_import{
+    font-family: 'Lora', serif;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: none;
+ }
+
+ .btn:focus{
+    border: none;
+    box-shadow: none;
+}

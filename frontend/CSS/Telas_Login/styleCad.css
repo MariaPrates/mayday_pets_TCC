@@ -1,0 +1,107 @@
+
+
+    @media screen and (min-width: 1px) {
+        .MarginTopIndexLogo{
+        margin-top: 2vh;
+        }
+        .WidthLogo{
+            width: 6vh;
+        }
+        .WidthCol-5, .WidthCol-6{
+            width: 100%;
+        }
+        .WidthMayday{
+            width:  100%;
+        }
+        .displayLogoResponsive1{
+            display: none;
+        } 
+        .displayLogoResponsive2{
+            display: inline;
+        }
+        .DisplayFunction{
+            display: block;
+        }
+        .row-padding{
+            padding-left: calc(var(--bs-gutter-x) * 0);
+            padding-right: calc(var(--bs-gutter-x) * 0);
+        }
+        
+       
+        
+    }
+    @media screen and (min-width: 1000px) {
+        .MarginTopIndexLogo{
+        margin-top: 2vh;
+        }
+        .row{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .WidthLogo{
+            width: 9vh;
+        }
+        .WidthCol-5{
+            width: 50%;
+        }
+        .WidthCol-6{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+
+        }
+        p{
+            display: flex;
+            justify-content: flex-end;
+            flex-direction: row;
+            align-items: center;
+        }
+        .WidthMayday{
+            width:  100%;
+            display: inline-grid;
+            justify-items: start;
+        }
+        .displayLogoResponsive{
+            display: grid;
+        } 
+        .displayLogoResponsive1{
+            display: inline;
+        }
+        .displayLogoResponsive2{
+            display: none;
+        }
+       
+        
+    }
+    .BackgroundTheme{
+        background-color: #BD5E6C;
+    }
+
+    .BackgroundThemeE1B1B8{
+        background-color: #E1B1B8;
+    }
+
+    .ButtonRadius{
+        border-radius: 10vh;
+    }
+
+    .ForgotPassword{
+        color: white;
+        transition: 1s;
+    }
+    .ForgotPassword:hover{
+        color: black;
+        transition: 1s;
+    }
+
+    .form-control:focus{
+        box-shadow: none;
+        border: none;
+     }
+
+     .btn:focus{
+        border: none;
+        box-shadow: none;
+    }

@@ -1,0 +1,1032 @@
+ 
+    /*Importações das fontes*/
+    @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*Fim das impotações*/
+
+@media screen and (min-width: 1px) {
+   .ProfilePhoto{
+        width: 10vh;
+        border-radius: 100%;
+    }
+    .space_50{
+        width:50%;
+    }
+    #img_responsive{
+        width: 100%;
+    }
+    #CarroselMedia, #SearchFormNav, #LogoutNavbar,.PostBodyFeedStructureImg, .PostBodyIntPedidoStructureImg,.PostBodyIntDoacaoStructureImg, .DisplayResponsiveNavbar {
+      display: none;
+    }
+   .HeigthEndereco{
+       max-height: 10vh;
+   }
+    #PostFeed, #PostInt{
+        width: 100%;;
+    }
+    #SearchFormFeed{
+        display: flex;
+    }
+    #DisplayNoneInteresseLi{
+        display: list-item;
+    }
+    #LogoutResponsive{
+        display: contents;
+    }
+    .Logo, .DisplayBtnMensagesReponsive, #DisplayBtnMensagesUserPost, #BtnMensagesUserPost{
+        display: none;
+    }
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 0em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 0px;
+    }
+    #ItensHeader{
+        margin-left: -2vh;
+    }
+
+    #RowSearch{
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        flex-wrap: wrap;
+        margin-top: calc(var(--bs-gutter-y) * -1);
+        margin-right: none; 
+        margin-left: none;
+    }
+    #InteresseButton{
+        display: none;
+    }
+    #PaddingLi{
+        padding: 10px;
+    }
+    
+    #FloatOptionsGeneral{
+        float: right;
+        margin-top: 1.5vh;
+    }
+    .ProfilePhoto{
+        width: 10vh;
+    }
+    .BackgroundNewPost{
+        background-color: #E9CAC6;
+    }
+    .BackgroundThemeDivResponsive{
+        background-color: #E9CAC6;
+    }
+    .WidthColGeneralResponsive{
+        width: 100%;
+    }
+    .WidthColGeneralResponsive2{
+        width: 100%;
+    }
+    .DisplayBtnMidia{
+        display: none;
+    }
+    .RowPostFeito {
+        flex-shrink: 1; 
+        width: auto; 
+        max-width: 100vh;
+    }
+    .WidthColBtnInt{
+        width: 50%;
+    }
+    .WidthColGeneralResponsiveInt{
+        width:  100%;
+    }
+    .DisplayHr{
+        display: block;
+    }
+    .WidthColSettings{
+        width: 100%;
+    }
+    .WidthInput50{
+        width: 100%;
+    }
+    .PostBodyStructureImg, .PostBodyIntStructureImg, .PostBodyIntStructureImgResponsive{
+        width: 100%;
+        margin-left: 0rem;
+    }
+
+    .TextBodyPost{
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .DisplayDescription, #DisplayBtnMensagesUserPostResponsive{
+        display: inline-block;
+    }
+    .AlingHeaderAltPost{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+ 
+    .MarginTitleAltPost{
+        margin-left: 2vh;
+    }
+    .MarginDropdownIntEnd{
+        margin-right: 2vh;
+    }
+    .ProfilePhotoIntCont{
+        width: 10vh;
+    }
+    .list-group-horizontal {
+        flex-direction: column;
+    }
+    .WidrhInputsPassword{
+        width: 100%;
+        margin-bottom: 2vh;
+    }
+   
+        .ProfilePhotoNotificationMensages{
+            width: 6vh;
+        }
+        .TextConfiguration{
+            height: 3vh;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+        }
+        .BtnMensageResponsive{
+            border-top-left-radius: 20vh;
+            border-top-right-radius: 20vh;
+            background-color: #E1B1B8;
+            float: right;
+            display: block;
+        }
+        .BtnMensageResponsive:hover{
+            border-top-left-radius: 20vh;
+            border-top-right-radius: 20vh;
+        }
+        .ProfilePhotoChatMensage{
+            width: 7vh;
+        }
+        .MensagemEnviada{
+            background-color: #F8E7E5;
+            border-radius: 2.5vh;
+            max-width: 25vh;
+        }
+        .MensagemRecebida{
+            background-color: #F8E7E5;
+            border-radius: 2.5vh;
+            margin-left: 0.5vh;
+            max-width: 25vh;
+        }
+        .ChatMensages{
+            background-color: #E1B1B8;
+            overflow-y: scroll;
+    
+        }
+        .Container-general-chat{
+            position: fixed;
+            height: 94vh;
+        }
+        .PaddinCol-12, .PaddinHighCol-12{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .ChatMensages::-webkit-scrollbar-track {
+            background-color: #E1B1B8;
+            }
+            .ChatMensages::-webkit-scrollbar {
+                width: 6px;
+                background: #F4F4F4;
+            }
+            .ChatMensages::-webkit-scrollbar-thumb {
+                background: #E9CAC6;
+            }
+   
+            .overlay {
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                background: rgba(51,51,51,0.7);
+                z-index: 2000;
+              }
+
+
+}
+@media screen and (min-width: 352px) {
+  
+}
+
+@media screen and (min-width: 500px) {
+    .WidthColBtnInt{
+        width: 35%;
+    }
+    .list-group-horizontal {
+        flex-direction: row;
+    }
+    .Logo{
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 743px) {
+#CarroselMedia,  #SearchFormNav, #LogoutNavbar{
+    display: flex;
+}
+#PostFeed,#PostInt, #WidthColCarosel{
+    width: 50%;
+}
+#LogoutResponsive, #ImgPostResponsive, #InteresseButton, #DisplayCarousel,  .DisplayTypeProduct{
+    display: none;
+}
+.DisplayDivTextArea{
+    display: flow-root;
+}
+#DisplayNoneInteresseLi{
+    display: list-item;
+}
+.DisplayTypeProduct1 {
+    display: block;
+
+}
+#ImgPostFeedNormal{
+    display: inline;
+    width: 100%;
+}
+.ImgPostFeitoDisplay{
+    display:inline;
+    width: 100%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.Logo{
+    height: 7vh;
+    display: inline;
+}
+#ItensHeader{
+    margin-left: 0vh;
+}
+#FloatOptionsGeneral{
+    float: right;
+    margin-top: 3.5vh;
+}
+#SearchFormFeed{
+    display: none;
+}
+#MarginFeedFullScreen{
+    margin-top:2vh
+}
+.InputSearch{
+    width: 55%;
+    justify-content: space-between;
+}
+
+.DisplayDenuncia{
+    display: flow-root;
+}
+#TextBodyPost{
+    display: inline;
+    height: 30vh;
+}
+
+#WidthColNewPost{
+    width: 100%;
+}
+.ItensOptionsWidthCol{
+    width: 100%;
+}
+.ContainerImgNewPost{
+    height: 30vh;
+    width: 50%;
+}
+.WidthTextarea{
+    width: 44%;
+    margin-left: 1rem;
+}
+
+.WidthColGeneralResponsive{
+    width: 100%;
+    
+} 
+.WidthColGeneralResponsive2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.BackgroundNewPost{
+    background-color: transparent;
+}
+.BackgroundThemeDivResponsive{
+    background-color: #E9CAC6;
+}
+.WidthColBtnInt{
+    width:  20%;
+}
+.RowPostFeito {
+    flex-shrink: 1; 
+    width: auto; 
+    max-width: none;
+}
+.NewPostBodyStructureImg{
+    margin-left: 1rem;
+    width: 50%;
+}
+.containerGeneral{
+    width: 50%;
+}
+.containerGeneral2{
+    width: 50%;
+}
+
+
+}
+@media screen and (min-width: 992px ) {
+.Logo{
+    height: 7vh;
+    display: none;
+}
+#WidthColCarosel{
+    width: 33%;
+}
+#DisplayCarousel{
+    display: flex;
+}
+.WidthColSettings{
+    width: 50%;
+}
+.WidthInputSettings{
+    width: 100%;
+}
+.DisplayResponsiveNavbar, #DisplayBtnMensagesUserPost{
+    display: inline-block;
+}
+#offcanvasHeader, #HeaderResponsiveBtn, .BtnMensageResponsive, #DisplayBtnMensagesUserPostResponsive{
+    display: none;
+}
+
+.DisplayBtnMensagesReponsive, #BtnMensagesUserPost{
+    display: block;
+}
+.PositionMensages{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 3vh;
+    z-index: 1;
+}
+.Container-general{
+    width: 35vh;
+    float: right;
+}
+.BtnMensage{
+    border-top-left-radius: 20vh;
+    border-top-right-radius: 20vh;
+    background-color: #E1B1B8;
+    float: right;
+}
+.BtnMensage:hover{
+    border-top-left-radius: 20vh;
+    border-top-right-radius: 20vh;
+}
+   
+    .AbaNotificationMensages{
+        height: 47vh;
+        background-color: #E1B1B8;
+        overflow-y: scroll;
+        float: right;
+    }
+
+    .AbaNotificationMensages::-webkit-scrollbar-track {
+    background-color: #E1B1B8;
+    }
+    .AbaNotificationMensages::-webkit-scrollbar {
+        width: 6px;
+        background: #F4F4F4;
+    }
+    .AbaNotificationMensages::-webkit-scrollbar-thumb {
+        background: #E9CAC6;
+    }
+    .ProfilePhotoNotificationMensages{
+        width: 6vh;
+    }
+   
+    .HoverLinkMensages:hover{
+        background-color: #E9CAC6;
+    }
+    .TextConfiguration{
+        height: 3vh;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+    #IconMensages{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .BtnMensageCol{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+
+
+.ChatMensages{
+    height: 38vh;
+    background-color: #E1B1B8;
+    overflow-y: scroll;
+
+}
+.Container-general-chat{
+    position: absolute;
+    height: 50vh;
+}
+.PaddinCol-12{
+   height: 50vh;
+}
+.ChatMensages::-webkit-scrollbar-track {
+background-color: #E1B1B8;
+}
+.ChatMensages::-webkit-scrollbar {
+    width: 6px;
+    background: #F4F4F4;
+}
+.ChatMensages::-webkit-scrollbar-thumb {
+    background: #E9CAC6;
+}
+
+.ProfilePhotoChatMensage{
+    width: 7vh;
+}
+
+
+.MensagemEnviada{
+    background-color: #F8E7E5;
+    border-radius: 2.5vh;
+    max-width: 25vh;
+}
+.MensagemRecebida{
+    background-color: #F8E7E5;
+    border-radius: 2.5vh;
+    margin-left: 0.5vh;
+    max-width: 25vh;
+}
+.HrDisplay{
+    display: none;
+}
+
+
+}
+
+@media screen and (min-width: 1190px) {
+    .Logo{
+        height: 7vh;
+        display: inline;
+    }
+    #DisplayNoneInteresseLi{
+        display: none;
+    }
+    #InteresseButton, .ImgPostFeitoDisplay{
+        display: inline;
+    }
+
+   .ProfilePhoto{
+        width: 10vh;
+        height: 8vh;
+    }
+    .InputSearch{
+        width: 35%;
+        justify-content: space-between;
+    }
+    .dropdown-menu {
+        z-index: 1;
+    }    
+    .DisplayTypeProduct {
+        display: block;
+    }
+    .list-group-horizontal {
+        flex-direction: row;
+    }
+    #CompartilharBtn{
+        float: right;
+        margin-bottom: 1vh;
+    }
+
+    #TextBodyPost{
+        display: inline;
+        height: 27vh;
+    }
+    .WidthColBtnInt{
+        width:  20%;
+    }
+    
+    
+}
+@media screen and (min-width: 1200px) {
+    #WidthColNewPost{
+        width: 65%;
+    }
+    .ItensOptionsWidthCol{
+        width: 33.3333333%;
+    }
+    .ItensColPost{
+        width: 100%;
+    }
+    #ImgPostFeedNormal, .ImgPostFeitoDisplay{
+        display: inline;
+        width: 50%;
+    }
+    .WidthTextarea{
+        width: 42%;
+    }
+    .WidthColGeneralResponsive{
+        width: 70%;
+    }
+    .WidthColGeneralResponsive2{
+        width: 30%;
+        display: block;
+    }
+    .WidthColBtnInt{
+        width:  12.66666%;
+    }
+    .WidthColGeneralResponsiveInt{
+        width:  50%;
+    }
+    .DisplayHr{
+        display: none;
+    }
+    .PostBodyStructureImg, #PostBodyIntStructureImg {
+        display: block;
+        width: 50%;
+    }
+    .PostBodyIntStructureImgResponsive{
+        display: none;
+    }
+
+    .DisplayBtnMidia{
+        display: flex;
+    }
+    .DisplayBtnMidia2{
+        display: none;
+    }
+    .PostBodyFeedStructureImg, .PostBodyIntPedidoStructureImg,.PostBodyIntDoacaoStructureImg {
+        display: block;
+        width: 50%;
+    }
+    .PostBodyFeedStructureImgResponsive, .PostBodyIntPedidoStructureImgResponsive,.PostBodyIntDoacaoStructureImgResponsive{
+        display: none;
+    }
+    .containerGeneral{
+        width: 100%;
+    }
+    .containerGeneral2{
+        width: 100%;
+    }
+    .card{
+        z-index: 1;
+    }
+    #collapseIntDoacao, #collapseIntPedido{
+        float: right;
+    }
+
+}
+
+@media screen and (min-width: 1463px) {
+    #TextBodyPost{
+        display: inline;
+        height: 27vh;
+    }
+    .WidthTextarea{
+        width: 44%;
+    }
+    
+}
+
+@media screen and (min-height: 1px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 47vh;
+    }
+    .Logo {
+        height: 25vh;
+    }
+    .ChatMensages{
+        height: 20vh;
+    }
+}
+@media screen and (min-height: 170px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 38vh;
+    }
+    .Logo {
+        height: 22vh;
+    }
+}
+@media screen and (min-height: 220px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 33vh;
+    }
+    .Logo {
+        height: 20vh;
+    }
+}
+@media screen and (min-height: 290px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 25vh;
+    }
+    .Logo {
+        height: 17vh;
+    }
+    .ChatMensages{
+        height: 67vh;
+    }
+}
+@media screen and (min-height: 390px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 20vh;
+    }
+    .Logo {
+        height: 16vh;
+    }
+}
+@media screen and (min-height: 450px) and (min-width: 1px) and (max-width:1000px){
+    .Logo {
+        height: 10vh;
+    }
+    .ChatMensages{
+        height: 67vh;
+    }
+}
+@media screen and (min-height: 520px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 18vh;
+    }
+    .Logo {
+        height: 7vh;
+    }
+    .ChatMensages{
+        height: 72vh;
+    }
+  
+
+}
+@media screen and (min-height: 620px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 16vh;
+    }
+    .Logo {
+        height: 9vh;
+    }
+    .ChatMensages{
+        height: 75vh;
+    }
+}
+
+@media screen and (min-height: 680px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 14vh;
+    }
+    .Logo {
+        height: 5vh;
+    }
+    .ChatMensages{
+        height: 78vh;
+    }
+}
+
+@media screen and (min-height: 780px) and (min-width: 1px) and (max-width:1000px){
+    .ProfilePhoto {
+        width: 12vh;
+    }
+    .Logo {
+        height: 4vh;
+    }
+    .ChatMensages{
+        height: 80vh;
+    }
+}
+/*CSS do body*/
+    body{
+        background-color: #FAE2DE;
+        height: 100%;
+    }
+
+    body::-webkit-scrollbar {
+        width: 12px;               /* width of the entire scrollbar */
+      }
+      
+    body::-webkit-scrollbar-track {
+        background: #FAE2DE;  
+      }
+      
+    body::-webkit-scrollbar-thumb {
+        background-color: #D798A1;    /* color of the scroll thumb */
+        border-radius: 20px;       /* roundness of the scroll thumb */
+        border:3px solid #FAE2DE;  /* creates padding around scroll thumb */
+      }
+/*Fim tag*/    
+.SettingsContainerFluidGeneral{
+    padding-right: 0;
+    padding-left: 0;
+}
+.BackgroundThemeE1B1B8{
+    background-color: #E1B1B8;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    z-index: auto;
+}
+.navbar-nav {
+    justify-content: space-around;
+    flex-direction: row;
+}
+/*
+CSS usado no:
+    Header
+    Botao de postar
+    botao de troca de display das postagens feitas e de interessadas
+    dropdown interessados das postagens feitas
+    btn salvar alterações
+    btn interesse
+*/
+    .BackgroundTheme{
+        background-color: #BD5E6C;
+    }
+    .F6D7DBBack{
+        background-color: #F6D7DB;
+        display: inline-block;
+    }
+    .BGColorDropdownInt{
+        background-color: #F6D7DB;
+       
+    }
+    .WidthDropdownInt{
+        width: 30vh;
+        z-index: 2;
+    }
+    .LimiteText{
+        width: 10vh;
+    }
+    .collapsing.collapse-horizontal{
+        animation-direction: reverse;
+    }
+/*Cor dos icones do header*/
+    .ColorF4F4F4{
+        color: #f4f4f4;
+    }
+
+/*tamanho do header*/
+    .Header{
+        height: 10vh;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+    
+
+/*tamanho e margin  do logo do site*/
+    
+
+/*margem das col do header*/
+    .Margin{
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+    }
+
+/*barra de pesquisa*/
+    .SearchBorder{
+        border-radius: 50vh;
+        background-color: #F4F4F4;
+    }
+
+/*Border radius dos botoes:
+    postar
+    display doação postagens feitas e interesses
+    display pedido postagens feitas e interesses
+    interessados
+    salvar
+*/
+    .ButtonRadius, .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
+        border-radius: 10vh;
+    }
+
+/*Tamanho das fotos da notificações e aba de mensagens*/
+    .ProfilePhotoNotification{
+        width: 6vh;
+    }
+
+/*quebra de texto da notificações e aba de mensagens*/
+    .TextNotification{
+        white-space: normal;
+    }
+
+/*Tamanho da caixa de mensagem da aba de mensagens */
+    .DropdownStyleWidthMensages{
+        width: 45vh;
+    }
+
+/*quebra de texto no final da div da aba de mensagens*/
+    .TextAbaChat{
+        overflow: hidden;
+        text-overflow: ellipsis; 
+        white-space: nowrap;
+    }
+/*Botões de controle do carrosel*/
+    .ButtonControlPrev{
+        width: 6vh;
+        height: 6vh;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+        border-radius: 100%;
+        background-color: #3F3D56;
+        opacity: 0.3;
+    }
+    .ButtonControlNext{
+        width: 6vh;
+        height: 6vh;
+        margin-top: auto;
+        margin-bottom: auto;
+        align-items: center;
+        border-radius: 100%;
+        background-color:#3F3D56;
+        opacity: 0.3;
+    }
+
+/*Cor dos ícones dos botões de  controle*/
+    .Prev{
+        color: white;
+    }
+    .Next{
+        color: white;
+    }
+
+/*BG da midia*/
+.MediaBackground{
+    background-color: #F4F4F4;
+    display: inline-block;
+}
+
+.WidthDescritionPost{
+    width:95%;
+}
+ /*Tamanho da foto de perfil*/
+
+.ProfilePhotoSettings{
+    width: 11vh;
+}
+
+/*Nome do user atual*/
+.UserName{
+    margin-top: 3vh;
+}
+
+/*font*/
+    .FontNameUserInteressados{
+        font-family: 'Roboto', sans-serif;
+        color: black;
+    }
+    .FontNameUser{
+        font-family: 'Roboto', sans-serif;
+        font-size: 4vh;
+        color: black;
+        margin-left: -1vh;
+    }
+    .FontTypePost{
+        font-family: 'Open Sans', sans-serif; 
+        font-size: 3.5vh;
+        margin-bottom: 3vh;
+    }
+    .FontTextGeneral{
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+/*Botao de interesse*/
+.InteresseBtn{
+    border-radius: 20vh;
+  
+}
+
+
+
+/*margem do dropdown das opções de link e denuncia*/
+.ButtonDropdown{
+    margin-left: 75vh;
+}
+
+/*Background do dropdown e postagens salvas*/
+.E9CAC6Style{
+    background-color: #E9CAC6;
+
+}
+
+/*Margin da opção de link  dos post*/
+.MarginIcon{
+    margin-left: -0.3vh;
+}
+
+/*Tamanho do dropdown do icon de notificações*/
+.DropdownStyleeWidth{
+    width: 30vh;
+}
+
+/*background dos botões de animais e de interessado*/
+.form-check-input:checked{
+    background-color: #6F42F5;
+}
+.BackgroundThemeInteresse{
+    background-color: #6F42F5;
+}
+
+
+/*dBackground e borda da lista de opções*/
+.list-group-item{
+    background-color: #E1B1B8;
+    border: none;
+    padding: .0rem 1rem;
+}
+
+.form-control:focus{
+   box-shadow: none;
+   border: none;
+}
+/*Foto de perfil do dono do post de interesse*/
+.ProfilePhotoInt{
+    width: 6vh;
+}
+
+/*Deixar o dropdown com a cor padrao*/
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #1e2125;
+    background-color: #E1B1B8;
+}
+
+
+
+/*CSS do botao de mensagens*/
+
+
+
+
+
+.btn:focus{
+    border: none;
+    box-shadow: none;
+}
+
+.form-select:focus{
+    box-shadow: none;
+    border: none;
+}
+.form-check-input:focus{
+box-shadow: none;
+border: none;
+}
+.BackgrounHoverDenuncia{
+    position: absolute;
+    height: 100%;
+    width: 100%;        
+    z-index: 3;
+    
+}
+
+.AlignItemsDenuncia{
+    background-color: #BB7E87;
+    box-shadow: 0px 0px 121px 222px rgb(0, 0, 0, 0.4);
+    display: grid;
+}
+#DisplayAbaDenuncia{
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+.TagVoltar{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 100%;
+}
+
+.BodyDenuncia{
+    height: 20vh;
+    background-color:  #E1B1B8;
+}
+
+.BackGroundBodyDenuncia{
+    background-color: #E1B1B8;
+}
+
+#InteressadoButton{
+    background-color: #6F42F5;
+}
+
+
+.MarginGeneralSettings{
+    margin-left: 10vh;
+}
+
+.MargibTopProfilePhotoSettings{
+    margin-top: 6vh;
+}
+
